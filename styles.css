@@ -348,7 +348,7 @@ a.btn-link {
 @media (max-width: 768px) {
   header {
     padding: 10px 20px;
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
     gap: 10px;
   }
@@ -381,7 +381,7 @@ a.btn-link {
   .product-img {
     width: 100%;
     height: auto;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 
   .product-img img {

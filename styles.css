@@ -345,3 +345,87 @@ a.btn-link {
   background: linear-gradient(90deg, hsl(289, 91%, 26%), #000);
   color: #fff;
 }
+@media (max-width: 768px) {
+  header {
+    padding: 10px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  header nav ul {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+  }
+
+  .container {
+    padding-top: 120px;
+    overflow-y: auto;
+  }
+
+  .list {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .item {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .product-img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .product-img img {
+    max-width: 90%;
+    height: auto;
+  }
+
+  .content {
+    width: 100%;
+    padding: 0;
+    align-items: center;
+  }
+
+  .product-name {
+    font-size: 2rem;
+  }
+
+  .description {
+    font-size: 1rem;
+    max-width: 100%;
+  }
+
+  .btn {
+    font-size: 0.9rem;
+    padding: 10px 14px;
+  }
+
+  .arrows {
+    width: 100%;
+    top: auto;
+    bottom: 20px;
+    transform: translateX(-50%);
+  }
+
+  .indicators {
+    bottom: 80px;
+  }
+
+  .numbers {
+    font-size: 2rem;
+  }
+
+  .dot {
+    width: 20px;
+    height: 3px;
+  }
+}

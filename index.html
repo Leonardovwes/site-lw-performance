@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LW Performance</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">LW Performance</div>
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li><a href="./sevicos.html" class="btn-link">Serviços</a></li>
+          <li>
+            <a href="https://wa.me/555180361427" class="btn-link">Serviços</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="container">
+      <div class="tech-circle">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+      </div>
+
+      <div class="list">
+        <div class="item active">
+          <div class="product-img">
+            <img src="./img/logo.png" alt="logo lw" />
+          </div>
+          <div class="content">
+            <p class="product-tag">A melhor oficina da região!</p>
+            <p class="product-name">LW Performance</p>
+            <p class="description">
+              Oficina especializada em injeção eletrônica, motores, suspensão,
+              freios e autoelétrica. Oferecemos atendimento personalizado e
+              serviços artesanais para o seu carro.
+            </p>
+            <a href="https://wa.me/555180361427" target="_blank" class="btn"
+              >Saiba Mais</a
+            >
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="product-img">
+            <img src="./img/bicos.png" alt="imagem bicos injetores" />
+          </div>
+          <div class="content">
+            <p class="product-tag">Injeção Eletrônica</p>
+            <p class="product-name">Bicos Injetores</p>
+            <p class="description">
+              Oficina especializada em injeção eletrônica, trabalhando com
+              diagnósticos avançados e fornecendo manutenção preventiva, limpeza
+              de bicos injetores e peças originais para reposição e manutenção
+              corretiva.
+            </p>
+            <a href="https://wa.me/555180361427" target="_blank" class="btn"
+              >Saiba Mais</a
+            >
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="product-img">
+            <img src="./img/peças.png" alt="imagem de peças automotivas" />
+          </div>
+          <div class="content">
+            <p class="product-tag">As melhores marcas de autopeças!</p>
+            <p class="product-name">Peças de alta qualidade</p>
+            <p class="description">
+              Trabalhamos apenas com peças fornecidas diretamente pelas
+              fábricas, garantindo qualidade superior e procedência. Evitamos
+              problemas e proporcionamos a melhor experiência para nossos
+              clientes.
+            </p>
+            <a href="https://wa.me/555180361427" target="_blank" class="btn"
+              >Saiba Mais</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="arrows">
+        <button class="arrow-btn" id="prev">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="25"
+            height="25"
+            fill="#fff"
+            class="bi bi-caret-left-fill"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"
+            />
+          </svg>
+        </button>
+
+        <button class="arrow-btn" id="next">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="25"
+            height="25"
+            fill="#fff"
+            class="bi bi-caret-right-fill"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"
+            />
+          </svg>
+        </button>
+      </div>
+
+      <div class="indicators">
+        <div class="numbers">01</div>
+
+        <div class="dots">
+          <div class="dot active"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="./scripts.js"></script>
+</html>

@@ -348,13 +348,13 @@ a.btn-link {
 @media (max-width: 768px) {
   header {
     padding: 10px 20px;
-    flex-direction: row;
+    flex-direction: column;
     align-items: flex-start;
     gap: 10px;
   }
 
   header nav ul {
-    flex-direction: column;
+    flex-direction: row;
     gap: 20px;
   }
 
